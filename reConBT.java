@@ -51,6 +51,5 @@ public class reConBT {
         root.left=reConstructBinaryTree(lPre,lIn);
         root.right=reConstructBinaryTree(rPre,rIn);
         return root;
-        
     }
 }
